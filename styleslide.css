@@ -289,7 +289,7 @@ html{
   top: 17%;
   left: 22%;
   transform: translateY(-50%,50%); 
-  font-size: 18px;
+  font-size: 30px;
   color: wheat;
 }
 #nav2{
@@ -306,10 +306,10 @@ html{
 }
 .fa-compact-disc{
   position:absolute;
-  top: 16%;
-  left: 16%;
+  top: 20%;
+  left: 19%;
   transform: translateY(-50%,50%); 
-  font-size: 18px;
+  font-size: 30px;
   color: wheat;
 }
 
@@ -330,7 +330,7 @@ html{
   top: 19%;
   left: 19%;
   transform: translateY(-50%,50%); 
-  font-size: 18px;
+  font-size: 30px;
   color: wheat;
 
 }
