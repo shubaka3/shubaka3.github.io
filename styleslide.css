@@ -286,8 +286,8 @@ html{
 }
 .fa-stream{
   position:absolute;
-  top: 18%;
-  left: 23%;
+  top: 17%;
+  left: 22%;
   transform: translateY(-50%,50%); 
   font-size: 18px;
   color: wheat;
@@ -307,7 +307,7 @@ html{
 .fa-compact-disc{
   position:absolute;
   top: 16%;
-  left: 18%;
+  left: 16%;
   transform: translateY(-50%,50%); 
   font-size: 18px;
   color: wheat;
@@ -327,7 +327,7 @@ html{
 }
 .fa-sliders-h{
   position:absolute;
-  top: 20%;
+  top: 19%;
   left: 19%;
   transform: translateY(-50%,50%); 
   font-size: 18px;
