@@ -1,0 +1,69 @@
+
+
+@media only screen  and (max-width :1289px) {
+    .action {
+        position: absolute;
+        top:120%;
+
+    }
+    .modifier {
+        transform: scale(75%) translateY(-50%);
+        transform-origin: top center;
+    }
+    .modifier-board {
+        transform: scale(80%);
+        transform-origin: top right;
+        animation:none;
+    }
+    #tutorial {
+        transform: scale(70%);
+        overflow-y: auto !important;
+    }
+    .slider-show {
+        margin-top: 10px !important;
+    }
+    /* pricing board */
+    #pricing-board {
+        flex-wrap: wrap;
+        height:80%;
+        overflow-y: auto !important;
+    }
+
+    #pricing-option {
+        width: 100% !important;
+    }
+    #web-family {
+        width: 100% !important;
+    }
+    /* sign up login */
+    .action {
+        transform: scale(80%)
+    }
+    .login-signup-board{
+        transform: scale(80%)
+    }
+    
+    #about-us-board {
+        padding: 10px !important;
+    }
+}
+@media only screen and (max-width :765px) {
+    .navigation {
+        position: absolute;
+        top:120%;
+    }
+    .action {
+        position: absolute;
+        top:200%;
+    }
+    .modifier {
+        /* transform: scale(80%) translateY(-50%); */
+        transform-origin: top center;
+    }
+    .modifier-board {
+        transform: scale(90%);
+        transform-origin: top right;
+        animation:none;
+    }
+ 
+}
