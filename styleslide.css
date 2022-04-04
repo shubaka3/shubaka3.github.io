@@ -289,7 +289,7 @@ html{
   top: 20%;
   left: 25%;
   transform: translateY(-50%,50%); 
-  font-size: 30px;
+  font-size: 24px;
   color: wheat;
 }
 #nav2{
@@ -309,7 +309,7 @@ html{
   top: 22%;
   left: 20%;
   transform: translateY(-50%,50%); 
-  font-size: 30px;
+  font-size: 24px;
   color: wheat;
 }
 
@@ -330,7 +330,7 @@ html{
   top: 22%;
   left: 20%;
   transform: translateY(-50%,50%); 
-  font-size: 30px;
+  font-size: 24px;
   color: wheat;
 
 }
