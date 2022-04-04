@@ -80,7 +80,7 @@ const app = {
       name: "River Flows In You",
       singer: "Yiruma",
       path:"music/Yiruma, (이루마) - River Flows in You.mp3",
-      image:"img/r.jpg"
+      image:"img/Yiruma_2017_Suwon.jpg"
     },
     {
       name: "Your Smile",
