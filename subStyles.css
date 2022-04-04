@@ -125,7 +125,7 @@
 }
 #effect-board {
     overflow-y: scroll;
-    height:215px;
+    height:285px;
 }
 #effect-board::-webkit-scrollbar {
     -webkit-appearance: none;
