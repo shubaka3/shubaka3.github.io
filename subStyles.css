@@ -3,7 +3,7 @@
 /* ==========MODIFIER +===========*/
 .modifier {
     position: fixed;
-    right: -10px;
+    right: -12px;
     top: 50%;
     transform: translateY(-50%);
     height: 30px;
