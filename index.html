@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styleslide.css" />
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href='./subStyles.css'>
+    <link rel="stylesheet" href='./responsive.css'>
+    <link rel="stylesheet" href="fontawesome-free-6.0.0-web/css/all.css"/>
+    <title>Cver(Cậu Vải)</title>
+  </head>
+  <body>
+<div class="allmusic">
+<div class="player">
+
+  <!-- Dashboard -->
+  <div class="dashboard" id="dashboard">
+    <div class="cd">
+      <div class="cd-thumb">
+      </div>
+    </div>
+    <!-- Header -->
+    <header>
+      <h4>Now playing:</h4>
+      <h2>Loading...</h2>
+      <h5>Cver(Cậu Vải)</h5>
+      
+    </header>
+
+    <!-- CD -->
+    
+    
+     <div id="btnandranger">
+    <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
+    <!-- Control -->
+    <div class="control">
+      <div class="btn btn-repeat">
+        <i class="fas fa-redo"></i>
+      </div>
+      <div class="btn btn-prev">
+        <i class="fas fa-step-backward"></i>
+      </div>
+      <div class="btn btn-toggle-play">
+        <i class="fas fa-pause icon-pause"></i>
+        <i class="fas fa-play icon-play"></i>
+      </div>
+      <div class="btn btn-next">
+        <i class="fas fa-step-forward"></i>
+      </div>
+      <div class="btn btn-random">
+        <i class="fas fa-random"></i>
+      </div>
+    </div>
+    </div>
+   
+    
+    
+
+    <audio id="audio" src=""></audio>
+  </div>
+
+  <!-- Playlist -->
+  <div id="listplaylist">
+    <div class="texlist">
+  <h1 class="listh" id="listh1">Playlist:</h1>
+  <h3 class="listh" id="listh3">  &#160 Lofi/Study/Sleep/Relax</h3>
+    </div>
+  <div class="playlist">
+    
+  </div>
+</div>
+</div>
+</div>
+<div id="navbar-main">
+  <div id="navbar-main-img">
+ 
+   <i id="nav1">
+    <i class="fas fa-stream"></i>
+   </i>
+   <i id="nav2">
+    <i class="fas fa-compact-disc"></i>
+
+   </i>
+   <i id="nav3">
+    <i class="fas fa-sliders-h"></i>
+   </i>
+   <div id="navbar-main-imgz">
+
+   </div>
+ </div>
+   
+   
+   <div id="navbar-main-img-background">
+
+   </div>        
+ </div>
+ <div class="modifier">
+  <div class="modifier-icons" id="settings">
+      <!-- <i class="fas fa-sliders-h"></i> -->
+      <div id='settings-board' class="display-none modifier-board">
+          <h3 class="board-heading">MOOD</h3>
+          <div id="main-board">
+              <div id="main-volume">
+                  <i class="fas fa-volume-off"></i>
+                  <input type="range" min="0" max="100" value="50" id="volume-bar">
+                  <i class="fas fa-volume-up"></i>
+              </div>
+              <h2 class="sub-board-heading">Cver(Cậu Vải) test app user nào có ý tưởng cho app thì ib vải nha</h2>
+             <div id="effect-board">
+                  <div class="effect-items">
+                      <p>City traffic</p>
+                      <input type="range" min="0" max="100" value="0" id='traffic-volume'>
+                      <audio src="./assests/effect/city_traffic.mp3" loop id="traffic-audio" preload="none"></audio>
+                  </div>
+                 <div class="effect-items">
+                     <p>City rain</p>
+                     <input type="range" min="0" max="100" value="0" id='rain-volume'>
+                     <audio src="./assests/effect/rain_city.mp3" loop id="rain-audio" preload="none"></audio>
+                 </div>
+                 <div class="effect-items">
+                     <p>Fireplace</p>
+                     <input type="range" min="0" max="100" value="0" id='fireplace-volume'>
+                     <audio src="./assests/effect/fireplace.mp3" loop id="fireplace-audio" preload="none"></audio>
+                 </div>
+                 <div class="effect-items">
+                     <p>Campfire</p>
+                     <input type="range" min="0" max="100" value="0" id='campfire-volume'>
+                     <audio src="./assests/effect/campfire.mp3" loop id="campfire-audio" preload="none"></audio>
+                 </div>
+                 <div class="effect-items">
+                     <p>Forest Sounds</p>
+                     <input type="range" min="0" max="100" value="0" id='forest-volume'>
+                     <audio src="./assests/effect/forest_night.mp3" loop id="forest-audio" preload="none"></audio>
+                 </div>
+                 <div class="effect-items">
+                     <p>Forest Rain</p>
+                     <input type="range" min="0" max="100" value="0" id='forest-rain-volume'>
+                     <audio src="./assests/effect/rain_forest.mp3" loop id="forest-rain-audio" preload="none"></audio>
+                 </div>
+                 <div class="effect-items">
+                     <p>Waves</p>
+                     <input type="range" min="0" max="100" value="0" id='waves-volume'>
+                     <audio src="./assests/effect/waves.mp3" loop id="waves-audio" preload="none"></audio>
+                 </div>
+                 <div class="effect-items">
+                     <p>Fan</p>
+                     <input type="range" min="0" max="100" value="0" id='fan-volume'>
+                     <audio src="./assests/effect/fan.mp3" loop id="fan-audio" preload="none"></audio>
+                 </div>
+                 <div class="effect-items">
+                     <p>Summer Storm</p>
+                     <input type="range" min="0" max="100" value="0" id='storm-volume'>
+                     <audio src="./assests/effect/summer_storm.mp3" loop id="storm-audio" preload="none"></audio>
+                 </div>
+                 <div class="effect-items">
+                     <p>River</p>
+                     <input type="range" min="0" max="100" value="0" id='river-volume'>
+                     <audio src="./assests/effect/river.mp3" loop id="river-audio" preload="none"></audio>
+                 </div>
+                 <div class="effect-items">
+                     <p>Bird</p>
+                     <input type="range" min="0" max="100" value="0" id='bird-volume'>
+                     <audio src="./assests/effect/birds.mp3" loop id="bird-audio" preload="none"></audio>
+                 </div>
+                 <div class="effect-items">
+                     <p>People Talking</p>
+                     <input type="range" min="0" max="100" value="0" id='people-volume'>
+                     <audio src="./assests/effect/people_talk_inside.mp3" loop id="people-audio" preload="none"></audio>
+                 </div>
+                 <div class="effect-items">
+                     <p>Wind</p>
+                     <input type="range" min="0" max="100" value="0" id='wind-volume'>
+                     <audio src="./assests/effect/wind.mp3" loop id="wind-audio" preload="none"></audio>
+                 </div>
+                 <div class="effect-items">
+                     <p>Ocean Sound</p>
+                     <input type="range" min="0" max="100" value="0" id='ocean-volume'>
+                     <audio src="./assests/effect/ocean.mp3" loop id="ocean-audio" preload="none"></audio>
+                 </div>
+                 <div class="effect-items">
+                     <p>Blizzard</p>
+                     <input type="range" min="0" max="100" value="0" id='blizzard-volume'>
+                     <audio src="./assests/effect/snow.mp3" loop id="blizzard-audio" preload="none"></audio>
+                 </div>
+             </div> 
+          </div>
+      </div>
+  </div> 
+  </div>
+
+
+      
+<!-- Design from: https://static.collectui.com/shots/3671744/musicloud-revolutionary-app-for-music-streaming-large -->
+
+    <script src="main.js"></script>
+    <script src='./script.js'></script> 
+  </body>
+</html>
